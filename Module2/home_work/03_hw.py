@@ -30,12 +30,4 @@
 # 19 189.81 Rub.
 # 20 199.8 Rub.
 
-x = float(input())
-y = 200
-
-while x < y:
-    x = x + 10
-    x = x - 0.01
-    x = round(x, 2)
-    print(x, 'Rub')
 
