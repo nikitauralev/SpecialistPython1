@@ -14,3 +14,19 @@
 #    #
 #    #
 ######
+
+import math
+a = int(input())
+d = math.sqrt(2) * a
+d = round(d)
+k = d // 2
+k = round(k)
+
+if (a > 2 and a <= 30):
+    print("#" * a)
+    for i in range(k):
+        print("#", " " * (a - 4), "#")
+else:
+    print("Error")
+
+print("#" * a)
