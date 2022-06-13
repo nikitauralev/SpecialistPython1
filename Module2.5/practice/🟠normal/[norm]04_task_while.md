@@ -21,8 +21,12 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
+n = int(input())
+count = " "
+for i in range(1, n + 1):
+    count = count + str(i)
+    print(count)
+
 ```
 
 ---
