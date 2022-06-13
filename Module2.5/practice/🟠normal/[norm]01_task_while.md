@@ -29,11 +29,16 @@ n = 5
 ****
 *****
 ```
+n = int(input())
+count = 0
+if (n > 1 and n < 20):
+    print("работает")
+else:
+    print("error")
+while count <= n:
+    print("*" * count)
+    count += 1
 
-### Решение задачи
-
-```python
-# TODO: you code here...
 ```
 
 ---
