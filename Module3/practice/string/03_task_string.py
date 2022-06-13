@@ -1,3 +1,9 @@
 # Подсчитать количество букв «а» во введенной строке
 
-# TODO: your code here
+text = "Вася самый умный!"
+count = 0
+text = text.replace(' ', '')
+text = text.count("а")
+
+print(text)
+
