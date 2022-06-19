@@ -4,7 +4,10 @@
 # * попробуйте решить данную задачу не используя строки
 
 def palindrome(number):
-    pass
+    k = str(number)
+    a = k[::-1]
+    if k == a:
+        return k
 
 
 # Тестируем функцию
